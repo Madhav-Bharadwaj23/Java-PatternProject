@@ -336,7 +336,7 @@ void reverse(){
     static void MainModule()
     {
         System.out.println("Pattern Generator");
-        System.out.println("1. Square Pattern\t2. L Shape Pattern\t3. Triangle\t4. SandClock\n5. Numeric Square1\t6. ButterFly\t7. Diamond Pattern\n8. HollowPyramid\t9.Zero - One Triangle\t10. Rhombus pattern\n11. K Pattern\tm. M pattern\tr. R Pattern \ta. A Pattern\nh. H Pattern\ti. I Pattern");
+        System.out.println("1. Square Pattern\t2. L Shape Pattern\t3. Triangle\t4. SandClock\n5. Numeric Square1\t6. ButterFly\t7. Diamond Pattern\n8. HollowPyramid\t9.Zero - One Triangle\t10. Rhombus pattern\n11. K Pattern\t12. Reverse No. Square\nm. M pattern\tr. R Pattern \ta. A Pattern\nh. H Pattern\ti. I Pattern");
         String c;
         System.out.println("Choose any one of them....");
         c = JOptionPane.showInputDialog("Enter Your Choice --- ");
@@ -388,10 +388,6 @@ void reverse(){
         }
          else if (c.equals("i")){
             p.i();
-        }
-        else if (c.equals("i")){
-            p.i();
-
         }
         else if (c.equals("12")){
             p.reverse();
